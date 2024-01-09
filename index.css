@@ -6,8 +6,17 @@
 .container {
   background-color: rgba(0,0,0,0.4)
 }
-. container span {
-  display: block;
-  padding: 6px;
-  color: #fff;
+.container{
+  max-width: 1360px;
+  width:100%;
+  margin: 0 auto;
+}
+.menu-hamburguer {
+  width: 32px;
+}
+.menu-hamburguer span {
+  height: 2px;
+  width:100%;
+  display:block;
+  background-color: #fff;
 }
