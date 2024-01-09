@@ -23,3 +23,6 @@ header {
     display: block;
     margin-bottom: 4px;
 }
+.container {
+  display:flex;
+}
