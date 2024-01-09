@@ -8,6 +8,11 @@
   width:100%;
   margin: 20px auto;
 }
+header {
+  padding: 16px 0;
+  color: #fff;
+  background-color: #192a56;
+}
 .menu-hamburguer {
   width: 32px;
 }
