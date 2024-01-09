@@ -26,6 +26,7 @@ header {
 header>.container {
   display:flex;
   justify-content: space-between;
+  align-itens: center;
 }
 .pesquise {
   display:flex;
