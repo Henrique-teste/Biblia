@@ -27,3 +27,8 @@ header>.container {
   display:flex;
   justify-content: space-between;
 }
+input {
+  display:flex;
+  justify-content: space-between;
+  padding: 5px;
+}
