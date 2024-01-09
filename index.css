@@ -3,13 +3,8 @@
   padding:0;
   box-sizing:border-box;
 }
-header {
-  background-color: #192a56;
-  padding: 1px 18px;
-  color:#fff;
-}
 .container{
-  max-width: 1360px;
+  max-width: 1024px;
   width:100%;
   margin: 0 auto;
 }
@@ -22,8 +17,4 @@ header {
     background-color: #fff;
     display: block;
     margin-bottom: 4px;
-}
-header > .container {
-  display: flex;
-  justify-content:space-between;
 }
