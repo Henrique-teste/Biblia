@@ -18,17 +18,15 @@ header {
 }
 .menu-hamburguer span {
    height: 2px;
-    width: 100%;
-    background-color: #fff;
-    display: block;
-    margin-bottom: 4px;
+   width: 100%;
+   background-color: #fff;
+   display: block;
+   margin-bottom: 4px;
 }
 header>.container {
   display:flex;
   justify-content: space-between;
 }
 input {
-  display:flex;
-  justify-content: space-between;
   padding: 5px;
 }
