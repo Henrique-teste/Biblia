@@ -33,6 +33,7 @@ nav li a {
 }
 .menu-hamburguer {
     width: 32px;
+    margin-bottom:30px;
 }
 .menu-hamburguer span {
     height: 2px;
