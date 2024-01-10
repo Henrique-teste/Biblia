@@ -1,22 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portal de notícias</title>
-    <link rel="stylesheet" href="./index.css" />
-</head>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 <body>
     <header>
         <div class="container">
             <h1>Eback Motors</h1>
             <div class="menu-hamburguer">
-              <span></span>
-              <span></span>
-              <span></span>
+                <span></span><span></span><span></span>
             </div>
         </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#">Em destaque</a>
+                    </li>
+                    <li>
+                        <a href="#">Promoções</a>
+                    </li>
+                    <li>
+                        <a href="#">Contatos </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    
-  
+    <section>
+        <div id="carrosel">
+            <img src="./images/slide1.png">
+            <img src="./images/slide2.png">
+            <img src="./images/slide3.png">
+        </div>
+    </section>
+    <section id="sobre-a-loja">
+        <div class="container container-flex">
+            <img src="./images/loja.jpg">
+            <div>
+                <h2>Sobre a loja</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi obcaecati distinctio consequuntur, labore laborum dolorum maiores ea corporis dolor voluptatibus eos in sint libero. Magni, esse. Suscipit eveniet alias inventore?
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi inventore eum dicta odio architecto soluta iure ratione, rem quod, labore accusamus sunt expedita corporis! Qui pariatur eligendi consectetur aliquid hic?
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#carrosel').slick({
+                autoplay: true,
+            });
+            $('.menu-hamburguer').click(function(){
+                $('nav').slideToggle();
+            })
+        })
+    </script>
 </body>
+</html>
