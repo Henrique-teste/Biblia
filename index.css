@@ -71,3 +71,7 @@ section {
 #sobre-a-loja{
     margin: 40px 20px;
 }
+.lista-veiculo img {
+    max-width: 120px;
+    width:100%;
+}
