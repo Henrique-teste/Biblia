@@ -12,10 +12,9 @@
 }
 header{
     font-family: 'Lemon', serif;
-    
 }
-header h1 {
-    background-color: #fff;
+header h2 {
+    background-color:#fff;
 }
 form {
     max-width:170px;
