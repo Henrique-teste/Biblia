@@ -18,6 +18,11 @@ header {
 header h1 {
     color:#fff;
 }
+.container-formulario{
+    max-width:1330px;
+    width:100%;
+    background-color:aqua;
+}
 form{
     max-width:200px;
     width:100%;
