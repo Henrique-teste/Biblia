@@ -22,11 +22,12 @@ header h1 {
     max-width:1330px;
     width:100%;
     background-color:aqua;
+    padding-top:40px;
 }
 form{
     max-width:200px;
     width:100%;
-    margin:40px auto;
+    margin:0 auto;
     display:block;
 }
 form input {
