@@ -12,6 +12,10 @@
     background-color:#192a56;
     border-radius:5px;
 }
+header {
+    display:flex;
+    justify-content:space-between;
+}
 header h1 {
     color:#fff;
 }
