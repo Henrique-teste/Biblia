@@ -13,8 +13,7 @@
     border-radius:5px;
 }
 header {
-    display:flex;
-    justify-content:space-between;
+    text-align:center;
 }
 header h1 {
     color:#fff;
