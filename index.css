@@ -10,6 +10,7 @@
     width:100%;
     margin: 0 auto;
     background-color:#192a56;
+    border-radius:5px;
 }
 header h1 {
     color:#fff;
