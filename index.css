@@ -11,10 +11,10 @@
 form {
     max-width:240px;
     width:100%;
+    margin: 0 auto;
 }
 form input {
     padding: 3px;
-    align-items:center;
 }
 form button{
     padding:5px;
