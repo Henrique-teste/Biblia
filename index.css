@@ -24,6 +24,7 @@ header h1 {
     background-color:aqua;
     padding-top:40px;
     max-heigth:730px;
+    heigth:100%;
 }
 form{
     max-width:200px;
