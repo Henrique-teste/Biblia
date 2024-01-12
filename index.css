@@ -19,4 +19,6 @@ form input {
 form button{
     padding:5px;
     width:100%;
+    background-color:green;
+    color:#fff;
 }
