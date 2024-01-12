@@ -4,34 +4,4 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-.container{
-    max-width:800px;
-    width: 100%;
-    margin: 0 auto;
-}
-header{
-    font-family: 'Lemon', serif;
-    font-heigth:bold;
-}
-.container-header {
-    background-color:#192a56;
-}
-header h2 {
-    color:#fff;
-}
-form {
-    max-width:170px;
-    width:100%;
-    margin: 0 auto;
-}
-form input {
-    padding: 3px;
-}
-form button{
-    padding:5px;
-    width:100%;
-    background-color:green;
-    color:#fff;
-    border:none;
-    margin-top:10px;
-}
+
