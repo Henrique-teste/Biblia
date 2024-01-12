@@ -6,7 +6,7 @@
 }
 
 .container-header{
-    max-width:1330px;
+    max-width:1360px;
     width:100%;
     margin: 0 auto;
     background-color:#192a56;
@@ -19,9 +19,11 @@ header h1 {
     color:#fff;
 }
 .container-formulario{
-    max-width:1330px;
+    max-width:1360px;
     width:100%;
     background-color:aqua;
+    max-height:768px;
+    height:100%;
     padding-top:40px;
 }
 form{
