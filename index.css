@@ -12,6 +12,8 @@
 header{
     font-family: 'Lemon', serif;
     font-heigth:bold;
+}
+.container-header {
     background-color:#192a56;
 }
 header h2 {
