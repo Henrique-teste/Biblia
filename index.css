@@ -9,12 +9,12 @@
     margin: 0 auto;
 }
 form {
-    max-width:240px;
+    max-width:250px;
     width:100%;
     margin: 0 auto;
 }
 form input {
-    padding: 1px;
+    padding: 3px;
 }
 form button{
     padding:5px;
