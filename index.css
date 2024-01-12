@@ -15,3 +15,7 @@ form {
 form input {
     padding: 3px;
 }
+form button{
+    padding:5px;
+    width:100%;
+}
