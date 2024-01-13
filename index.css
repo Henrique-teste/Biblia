@@ -22,7 +22,8 @@ header {
 }
 nav {
     background-color:aqua;
-    padding: 16px;
+    padding: 10px;
+    display:none;
 }
 nav li {
     display:inline;
