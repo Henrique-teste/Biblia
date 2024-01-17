@@ -12,6 +12,65 @@
 
     <link rel="stylesheet" href="index.css">
 <body>
+    <header>
+        <div class="container">
+            <h1>Ebac Motors</h1>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+               <ul>
+                  <li>
+                    <a href="#">Sobre</a>
+                  </li>
+                  <li>
+                    <a href="#">Contatos</a>
+                  </li>
+                  <li>
+                    <a href="#">Em destaque</a>
+                  </li>
+                <li>
+                    <a href="#">Promoção</a>
+                  </li>
+               </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="carrosel">
+        <img src="./images/slide1.png" alt="">
+        <img src="./images/slide2.png" alt="">
+        <img src="./images/slide3.png" alt="">
+    </div>
+
+    <section>
+        <div class="container">
+            <img src="./images/loja.jpg">
+            <div>
+                <h2>Sobre a loja</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop</p>
+            </div>
+        </div>
+    </section>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#carrosel").slick({
+                autoplay: true,
+            })
+            $(".menu-hamburguer").click(function(){
+                $("nav").slideToggle();
+            })
+        })
+    </script>
 
 </body>
 </html>
