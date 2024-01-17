@@ -4,6 +4,7 @@
 }
 body{
     background-image: url("images/carro-bmw.png")
+    background-size: cover;
 }
 
 
