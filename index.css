@@ -35,6 +35,15 @@ nav li a {
     font-size:20px;
     margin-left:10px;
 }
+.menu-hamburguer{
+    width:35px;
+}
+.menu-hamburguer{
+    width:100%;
+    display:block;
+    height:4px;
+    background-color:#fff;
+}
 
 
 
