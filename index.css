@@ -13,8 +13,8 @@ header > .container {
     display: flex;
     align-items:center;
     justify-content: space-beteewn;
+    padding:20px;
 }
-
 
 header{
     color:#fff;
