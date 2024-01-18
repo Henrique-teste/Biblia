@@ -64,8 +64,13 @@ section{
 section h2 {
     margin-bottom:16px;
 }
-
-
+.lista-veiculos li{
+    list-style:none;
+    max-width: 30%;
+}
+.lista-veiculos li h3{
+    margin: 16px 0;
+}
 
 
 
