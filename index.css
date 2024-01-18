@@ -19,12 +19,10 @@ header > .container {
 header{
     color:#fff;
     background-color:#192a56;
-    padding-top:20px;
 }
 nav {
     color:#fff;
     background-color:aqua;
-    padding-bottom:20px;
 }
 nav li {
     list-style:none;
