@@ -37,6 +37,10 @@ nav li a {
 }
 .menu-hamburguer{
     width:35px;
+    display: flex;
+    align-items:center;
+    justify-content: space-beteewn;
+    
 }
 .menu-hamburguer span{
     width:100%;
