@@ -10,10 +10,11 @@
 }
 header {
     color:#fff;
+    background-color:#192a56;
 }
 nav {
     display:inline;
-    background-color:aqua;
+    background-color:#000;
 }
 nav li {
     list-style:none;
