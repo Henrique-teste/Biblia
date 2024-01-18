@@ -55,6 +55,13 @@ nav li a {
 }
 #sobre-a-imagem img {
     max-width:400px;
+    margin-rigth:24px;
+}
+section {
+    padding: 48px 0;
+}
+section h2 {
+    margin-bottom:16px;
 }
 
 
