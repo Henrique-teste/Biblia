@@ -3,7 +3,17 @@
     margin: 0;
     box-size:border-box;
 }
-
+.container {
+    max-width:1024px;
+    width:100%;
+    margin:0 auto;
+}
+header {
+    background-color:#192a56;
+}
+nav {
+    background-color:aqua;
+}
 
 
 
