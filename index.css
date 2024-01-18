@@ -9,12 +9,11 @@
     margin:0 auto;
 }
 header {
-    background-color:#192a56;
     color:#fff;
 }
 nav {
     display:inline;
-    background-color:#fff;
+    background-color:aqua;
 }
 nav li {
     list-style:none;
@@ -23,7 +22,8 @@ nav li {
 nav li a {
     text-decoration:none;
     color:#fff;
-    font-size:15px;
+    font-size:25px;
+    margin-left: 10px;
     font-height:bold;
 }
 
