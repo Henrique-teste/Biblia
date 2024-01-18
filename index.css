@@ -53,7 +53,7 @@ nav li a {
 .container-flex {
     display:flex;
 }
-sobre-a-imagem img {
+#sobre-a-imagem img {
     max-width:400px;
 }
 
