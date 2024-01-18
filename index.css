@@ -10,9 +10,13 @@
 }
 header {
     background-color:#192a56;
+    color:#fff;
 }
 nav {
     background-color:aqua;
+    display:inline;
+    color:#fff;
+    list-style:none;
 }
 
 
