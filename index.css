@@ -3,6 +3,9 @@
     margin: 0;
     box-size:border-box;
 }
+html{
+    overflow-x:hidden;
+}
 .container {
     max-width:1024px;
     width:100%;
