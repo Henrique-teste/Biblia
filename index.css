@@ -18,6 +18,15 @@ nav {
     background-color:aqua;
     padding-bottom:20px;
 }
+nav li {
+    list-style:none;
+}
+nav li a {
+    color:#fff;
+    text-decoration:none;
+    font-size:20px;
+    margin-left:10px;
+}
 
 
 
