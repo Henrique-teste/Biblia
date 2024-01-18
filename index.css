@@ -27,6 +27,7 @@ nav {
     color:#fff;
     background-color:aqua;
     padding: 16px 0;
+    display:none;
 }
 nav li {
     list-style:none;
