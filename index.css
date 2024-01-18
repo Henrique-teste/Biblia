@@ -38,7 +38,7 @@ nav li a {
 .menu-hamburguer{
     width:35px;
 }
-.menu-hamburguer{
+.menu-hamburguer span{
     width:100%;
     display:block;
     height:4px;
