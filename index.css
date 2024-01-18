@@ -51,6 +51,9 @@ nav li a {
     background-color:#fff;
     margin-bottom: 5px;
 }
+.container-flex {
+    display:flex;
+}
 
 
 
