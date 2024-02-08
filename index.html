@@ -6,7 +6,7 @@
     <title>Carrosel</title>
     <link rel="stylesheet" href="./bootstrap.min.css">
 <body>
-    <div class="toast">
+    <div class="toast" id="menu-toast">
         <div class="toast-header">
             <strong>Mensagens</strong>
         </div>
@@ -17,5 +17,8 @@
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"> </script>
     <script src="bootstrap.bundle.min.js"> </script>
+    <script>
+       $('#menu-toast').toast("show"); 
+    </script>
 </body>
 </html>
